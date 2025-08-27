@@ -1,5 +1,6 @@
-import br.Curso;
-import br.com.Mentoria;
+import br.com.dio.desafio.dominio.Conteudo;
+import br.com.dio.desafio.dominio.Curso;
+import br.com.dio.desafio.dominio.Mentoria;
 
 public class Main {
     public static void main(String[] args) {
@@ -12,7 +13,7 @@ public class Main {
         curso2.setTitulo("Curso JavaScript");  
         curso2.setDescricao("Descrição do curso JavaScript");
         curso2.setCargaHoraria(4);
-        
+
         Mentoria mentoria1 = new Mentoria();
         mentoria1.setTitulo("Mentoria de Java");
         mentoria1.setDescricao("Descrição da mentoria de Java");

@@ -1,14 +1,10 @@
-package br.com;
+package br.com.dio.desafio.dominio;
 
-import java.time.LocalDate;
+public abstract class Conteudo {
+    protected static final double XpPadrao = 10d;
 
-public class Mentoria {
     private String titulo;
     private String descricao;
-    private LocalDate data;
-
-    public Mentoria() {
-    }
 
     public String getTitulo() {
         return titulo;
@@ -26,12 +22,7 @@ public class Mentoria {
         this.descricao = descricao;
     }
 
-    public LocalDate getData() {
-        return data;
-    }
-
-    public void setData(LocalDate data) {
-        this.data = data;
-    }
+    public abstract double calcularXp();
 
 }
+
